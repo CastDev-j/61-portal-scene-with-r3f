@@ -7,7 +7,7 @@ export const ModelsGroup = () => {
   return (
     <group>
       <Suspense
-        fallback={<PlaceHolder position={[0, 0, 0]} text="Cargando Texto..." />}
+        fallback={<PlaceHolder position={[0, 0, 0]} text="Cargando Portal..." />}
       >
         <Portal />
 
